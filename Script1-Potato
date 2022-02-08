@@ -1,4 +1,5 @@
-game.Players.LocalPlayer:Kick('[George Floyd MENU] Menu em atualização...')
+local plr = game.Players.LocalPlayer
+plr:Kick('[George Floyd Menu] Menu em atualização...')
 
 --[[
 
