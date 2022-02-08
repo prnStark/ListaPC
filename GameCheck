@@ -1,0 +1,11 @@
+--//GameCheck
+loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/hwid-perm', true))()
+
+if game.PlaceId == 6911111094 then --// Florianopolis
+loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/Florianopolis', true))()
+elseif game.PlaceId == 7100412026 then --// Potato
+loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/Potato', true))()
+elseif game.PlaceId == 5373778395 then --// Favela Batatata
+loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/FavelaBatata', true))()
+else game.Players.LocalPlayer:Kick('Game não indentificado')
+end
