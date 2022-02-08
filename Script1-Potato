@@ -1,5 +1,8 @@
-local plr = game.Players.LocalPlayer
-plr:Kick('[George Floyd Menu] Menu em atualização...')
+    game.StarterGui:SetCore('SendNotification', {
+        Title = 'George Floyd Cheat',
+        Text = 'MENU EM ATUALIZAÇÃO',
+        Duration = '15'
+    })
 
 --[[
 
