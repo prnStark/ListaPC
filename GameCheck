@@ -7,5 +7,15 @@ elseif game.PlaceId == 7100412026 then --// Potato
 loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/Potato', true))()
 elseif game.PlaceId == 5373778395 then --// Favela Batatata
 loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/FavelaBatata', true))()
+elseif game.PlaceId == 5905914833 then --// VidaBR
+loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/VidaBR', true))()
+elseif game.PlaceId == 6990893297 then --// BNL
+loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/BNL', true))()
+elseif game.PlaceId == 5022322253 then --// RodoGrau
+loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/Rodograu', true))()
+elseif game.PlaceId == 6847503125 then --// VidaNoParana
+loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/VNP', true))()
+elseif game.PlaceId == 6271173196 then --// Ibicatu
+loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/Ibicatu', true))()
 else game.Players.LocalPlayer:Kick('Game não indentificado')
 end
