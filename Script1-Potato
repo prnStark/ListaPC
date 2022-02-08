@@ -1,8 +1,4 @@
-    game.StarterGui:SetCore('SendNotification', {
-        Title = 'George Floyd Cheat',
-        Text = 'MENU EM ATUALIZAÇÃO',
-        Duration = '15'
-    })
+print('[George Floyd Menu] Menu em atualização...')
 
 --[[
 
