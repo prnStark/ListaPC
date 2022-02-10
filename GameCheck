@@ -17,5 +17,7 @@ elseif game.PlaceId == 6847503125 then --// VidaNoParana
 loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/VNP', true))()
 elseif game.PlaceId == 6271173196 then --// Ibicatu
 loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/Ibicatu', true))()
+elseif game.PlaceId == 7235547883 then --// EB
+loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/EB', true))()
 else game.Players.LocalPlayer:Kick('[George Floyd Menu] Jogo não indentificado!')
 end
