@@ -20,6 +20,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main
 elseif game.PlaceId == 7235547883 then --// EB
 loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/EB', true))()
 elseif game.PlaceId == 7331136253 then --// BomSucesso
-https://raw.githubusercontent.com/prnStark/ListaPC/main/BomSucesso
+loadstring(game:HttpGet('https://raw.githubusercontent.com/prnStark/ListaPC/main/BomSucesso', true))()
 else game.Players.LocalPlayer:Kick('[George Floyd Menu] Jogo não indentificado!')
 end
